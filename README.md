@@ -1,10 +1,9 @@
-# 📊 Q&A Asker 🎤
+## 📊 Q&A Asker 🎤
 
 This project is an **AI-powered CSV Q&A Tool** built with **Streamlit, LangChain, HuggingFace Embeddings, and ChatGroq**.  
 It allows users to **upload a CSV file**, create a **vector database**, and then **ask natural language questions** about the data.  
 The system retrieves the most relevant context and generates accurate answers using an LLM.
 
----
 
 ## 🚀 Features
 - 📂 Upload CSV files directly from the UI
@@ -13,30 +12,29 @@ The system retrieves the most relevant context and generates accurate answers us
 - ⚡ Powered by **LangChain** + **ChatGroq**
 - 🎨 Interactive Streamlit interface
 
----
 
 ## 🛠️ Installation
 
 Clone the repository and install dependencies:
 
-
-git clone https://github.com/your-username/qa-asker.git
-cd qa-asker
+```bash
+git clone https://github.com/your-username/Q-A-asker.git
+cd Q-A-asker
 pip install -r requirements.txt
-
+```
 
 ##### Your csv file should be in encoding = "cp1252" #####
 
 
 ## Create a .env file in the root directory with your API key:
-
+```bash
 GROQ_API_KEY_2=your_groq_api_key_here
-
+```
 
 ## ▶️ Running the Project:
-
+```bash
 streamlit run app.py
-
+```
 
 ## 📸 Screenshot :
 
