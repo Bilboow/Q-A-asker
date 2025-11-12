@@ -4,7 +4,7 @@ import pandas as pd
 from langchain_groq import ChatGroq
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain.chains import RetrievalQA 
+from langchain.chains.retrieval_qa.base import RetrievalQA  # ✅ use this
 from langchain_core.documents import Document
 from langchain_community.document_loaders import CSVLoader
 from langchain.prompts import PromptTemplate
