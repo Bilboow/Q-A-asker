@@ -21,7 +21,7 @@ llm = ChatGroq(
 
 # Initialize embedding model
 vector_embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
-file_path = "./chroma_store"
+file_path = "/tmp/chroma_store"
 
 def create_vector_db(file_path_csv):
     """Creates or updates a Chroma vector store from a CSV file."""
